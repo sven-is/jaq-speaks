@@ -26,7 +26,7 @@ function play(ss){
    };
   $(window).keydown(function(e){
 	var filename = sound_files[e.keyCode % sound_files.length]
-	play(filenamea)
+	play(filename)
 })
   $("buttons").fadeIn(500);
   $("footer").fadeIn(500);
